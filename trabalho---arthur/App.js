@@ -208,7 +208,7 @@ export default function AppQuiz() {
     return (
       <View style={[styles.telaCentrada, { backgroundColor: tema.fundo }]}>
         <Image
-          source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }}
+          source={{ uri: 'https://thf.bing.com/th/id/OIP.itJWPlHE0xCez0AM0uhs8gHaHa?w=202&h=202&c=7&r=0&o=7&cb=thfc1falcon2&dpr=1.5&pid=1.7&rm=3' }}
           style={styles.logoInicial}
         />
         <Text style={styles.tituloPrincipal}>Quiz de Geografia 🌎</Text>
@@ -238,8 +238,7 @@ export default function AppQuiz() {
 
         {quizNumero === 1 ? (
           <Text style={styles.subtitulo}>
-            Acertos: {pontuacao} de {quizAtivo.length}. Agora faça o quiz de
-            geografia!
+            Acertos: {pontuacao} de {quizAtivo.length}.
           </Text>
         ) : (
           <Text style={styles.subtitulo}>
